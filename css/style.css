@@ -1,0 +1,91 @@
+body {
+	background-color:#2f3640;
+}
+
+div#login_form {
+	margin:50px auto;
+	width:31%;
+	height:500px;
+	background:#2d3436;
+	text-align:center;
+	border:1px solid #e74c3c;
+	border-radius:3px;
+}
+
+#login_form form {
+	width:100%;
+	height:auto;
+	padding:100px 10px;
+}
+
+#login_form form .user-info {
+	width:70%;
+	padding:7px 15px;
+	border:none;
+	outline:none;
+	border-radius:5px;
+	margin:10px 0;
+	background:none;
+	color:#FFFFFF;
+	border-bottom:1px solid #e74c3c;
+	font-size:18px;
+}
+
+#login_form form #btn_login {
+	width:32%;
+	outline:none;
+	border:none;
+	border-radius:5px;
+	padding:8px 10px;
+	cursor:pointer;
+	margin:20px 0;
+	font-size:17px;
+	background:#e74c3c;
+	color:#FFFFFF;
+	transition: 0.5s
+}
+
+#login_form form #btn_login:hover {
+	background:#c0392b;
+}
+
+#login_form form #btn_login:active {
+	background:#d63031;
+}
+
+#login_form a {
+	color:#3498db;
+}
+
+#alert {
+	width:30%;
+	height:auto;
+	padding:30px 20px;
+	background:#e74c3c;
+	position: absolute;
+	top:150px;
+	left:35%;
+	z-index:5;
+	color:#FFFFFF;
+	font-size:18px;
+	border-radius:2px;
+	transition: 2s;
+	display: none;
+}
+
+#alert #btn_ok {
+	float: right;
+	width:20%;
+	border:none;
+	outline: none;
+	border-radius:2px;
+	cursor:pointer;
+	padding:2px 10px;
+	background:#FFFFFF;
+	color:#e74c3c;
+	transition: 0.5s
+}
+
+#alert #btn_ok:hover {
+	background:#bdc3c7;
+}
